@@ -1,0 +1,23 @@
+body{
+    background-color: aqua;
+}
+.container{
+    border:1px solid black;
+    width: 75%;
+    margin:0 auto;
+    text-align: center;
+}
+.imagebox{
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.imagebox :hover{
+    transform: scale(1.1);
+    box-shadow: 3px 6px 20px rgb(54, 8, 236,1);
+}
+
+
